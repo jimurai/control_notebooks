@@ -1,10 +1,3 @@
-# Control Systems Repository
-This is the place to go for:
-* Jupyter notebooks documenting control theory and solutions
-* The control system simulation environment
-* Detailed implementations of control solutions
-
-
 ## Python environment set up
 Open an Anaconda  prompt and execute the following commands while saying yes to
 every prompt.
