@@ -17,11 +17,12 @@ longer than you expect. Please be patient and don't get too frustrated at slow
 initial progress - it'll get better!
 
 Download Julia from here [here](https://julialang.org/downloads/).
-The latest tested version is 0.6.2 x64.
+The latest tested version is 1.0.1 x64.
 
 First tell Julia to using the "control" Python environment.
 ```
 ENV["PYTHON"] = string(ENV["HOME"],"AppData\\Local\\Continuum\\Anaconda3\\envs\\control\\python")
+using Pkg
 Pkg.build("PyCall")
 ```
 
